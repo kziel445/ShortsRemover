@@ -10,7 +10,7 @@ function hideElementsWithClass(className) {
     });
   }
   // Call the function with the class you want to hide
-  hideElementsWithClass('-img');
+  // hideElementsWithClass('-img');
 
   
 

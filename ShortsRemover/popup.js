@@ -10,7 +10,7 @@
         function: () => {
           // This function will run in the context of the webpage
           alert("Hello, Img!");
-          const elements = document.querySelectorAll('.example');
+          const elements = document.querySelectorAll('.style-scope ytd-rich-section-renderer');
           elements.forEach(element => {
             element.style.display = 'none';
             element.style.backgroundColor = 'red';
