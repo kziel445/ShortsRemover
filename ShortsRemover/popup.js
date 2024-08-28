@@ -14,10 +14,9 @@
             element.style.backgroundColor = 'red';
           });
 
-          elements = document.querySelectorAll('.style-scope ytd-reel-shelf-renderer');
-          elements.forEach(element => {
+          const elements2 = document.querySelectorAll('.style-scope ytd-reel-shelf-renderer');
+          elements2.forEach(element => {
             element.style.display = 'none';
-            element.style.backgroundColor = 'red';
           });
         }
       });
