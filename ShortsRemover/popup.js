@@ -1,6 +1,3 @@
-
-  
-
   document.getElementById('changeColor').addEventListener('click', () => {
     // Query the active tab in the current window
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
